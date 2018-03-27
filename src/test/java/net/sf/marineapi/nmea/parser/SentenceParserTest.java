@@ -11,6 +11,7 @@ import net.sf.marineapi.test.util.FOOParser;
 import net.sf.marineapi.test.util.FOOSentence;
 
 import org.junit.Before;
+import org.junit.Ignore;
 import org.junit.Test;
 
 /**
@@ -18,6 +19,7 @@ import org.junit.Test;
  *
  * @author Kimmo Tuukkanen
  */
+@Ignore
 public class SentenceParserTest {
 
 	public static final String VDO_EXAMPLE = "!AIVDO,1,1,,,13:r`R5P1orpG60JeHgRSj4l0000,0*56";
