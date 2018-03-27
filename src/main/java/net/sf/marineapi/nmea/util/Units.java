@@ -43,7 +43,10 @@ public enum Units {
 	KNOT('N'),
 
 	/** Length in meter */
-	METER('M');
+	METER('M'),
+
+	/** Length in meter */
+	S('S');
 
 	private char ch;
 
