@@ -45,8 +45,12 @@ public enum Units {
 	/** Length in meter */
 	METER('M'),
 
-	/** Length in meter */
-	S('S');
+	/** Speed in statute miles per hour */
+	MPH('S'),
+
+	/** Angle in degree
+	 * NOT OFFICIAL IN NMEA*/
+	DEG('B');
 
 	private char ch;
 
